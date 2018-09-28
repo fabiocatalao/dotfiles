@@ -12,6 +12,7 @@ brew upgrade
 # Install packages
 
 apps=(
+  ansible
   bash-completion2
   bats
   battery
@@ -31,17 +32,22 @@ apps=(
   lynx
   mackup
   nano
+  nvm
   pandoc
   peco
   psgrep
   python
-  python@2
+  python@3
   shellcheck
   ssh-copy-id
+  tmux
   tree
   unar
   wget
   wifi-password
+  zs
+  zsh
+  zsh-completions
 )
 
 brew install "${apps[@]}"
@@ -49,4 +55,4 @@ brew install "${apps[@]}"
 export DOTFILES_BREW_PREFIX_COREUTILS=$(brew --prefix coreutils)
 set-config "DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_CACHE"
 
-ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
+# ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~

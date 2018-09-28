@@ -12,4 +12,4 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 rvm install 2.5
 rvm use 2.5 --default
 
-gem install pygmentize
+gem install tmuxinator

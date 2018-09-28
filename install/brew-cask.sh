@@ -10,25 +10,31 @@ brew tap caskroom/fonts
 # Install packages
 
 apps=(
-  alfred
-  dash2
+  calibre
+  datagrip
+  deluge
   dropbox
   firefox
   flux
-  font-fira-code
-  glimmerblocker
+  flycut
   google-chrome
-  google-chrome-canary
-  hammerspoon
-  kaleidoscope
-  macdown
-  opera
-  screenflow
+  google-drive
+  intellij-idea
+  iterm2
+  java
+  microsoft-office
+  onedrive
+  paintbrush
+  phpstorm
+  postman
+  skype
   slack
   sourcetree
-  spotify
-  sublime-text
+  spetacle
   transmit
+  unrarx
+  vagrant
+  veracrypt
   virtualbox
   visual-studio-code
   vlc
@@ -38,6 +44,3 @@ brew cask install "${apps[@]}"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
-
-# Link Hammerspoon config
-if [ ! -d ~/.hammerspoon ]; then ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon; fi
