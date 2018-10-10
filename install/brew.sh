@@ -15,7 +15,6 @@ apps=(
   ansible
   bash-completion2
   bats
-  battery
   coreutils
   diff-so-fancy
   dockutil
@@ -27,13 +26,9 @@ apps=(
   grep --with-default-names
   hub
   httpie
-  imagemagick
   jq
-  lynx
   mackup
-  nano
   nvm
-  pandoc
   peco
   psgrep
   python
@@ -45,7 +40,6 @@ apps=(
   unar
   wget
   wifi-password
-  zs
   zsh
   zsh-completions
 )

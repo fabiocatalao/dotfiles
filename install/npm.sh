@@ -19,6 +19,7 @@ packages=(
   nodemon
   npm
   tldr
+  underscore
 )
 
 npm install -g "${packages[@]}"
