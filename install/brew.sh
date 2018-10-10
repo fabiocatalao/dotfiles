@@ -41,7 +41,6 @@ apps=(
   wget
   wifi-password
   zsh
-  zsh-completions
 )
 
 brew install "${apps[@]}"
